@@ -1,7 +1,5 @@
 package leetcodeAlgorithm;
 
-
-
 public class StringToInt {
 	public int myAtoi(String str){
 		int result=0;
