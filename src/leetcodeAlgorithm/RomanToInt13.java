@@ -24,5 +24,8 @@ public class RomanToInt13 {
 	public static void main(String[] args) {
 		RomanToInt13 result=new RomanToInt13();
 		System.out.println(result.covertInt("DCLXVI"));
+		String str1="ace";
+		String str2="ab";
+		System.out.println(str1.compareTo(str2));
 	}
 }
