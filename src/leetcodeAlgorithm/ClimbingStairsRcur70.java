@@ -12,7 +12,6 @@ public class ClimbingStairsRcur70 {
 		 sum[0]=0;
 		 sum[1]=1;
 		 sum[2]=2;
-		
 		 for(int i=3;i<n+1;i++){
 			 sum[i]=sum[i-1]+sum[i-2];
 		 }
