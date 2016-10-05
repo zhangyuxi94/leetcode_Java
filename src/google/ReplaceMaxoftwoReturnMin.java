@@ -17,6 +17,6 @@ public class ReplaceMaxoftwoReturnMin {
 		return Integer.parseInt(inStr);
 	}
 	public static void main(String[] args) {
-		System.out.println(solution(9888226));
+		System.out.println(solution(1000));
 	}
 }
