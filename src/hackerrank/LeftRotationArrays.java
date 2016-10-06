@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class LeftRotationArrays {
 	public static int[] leftRotation(int n, int d, int[] x){
+		
 		int[] temp=new int[d];
 		for(int i=0;i<d;i++){
 			temp[i]=x[i];
