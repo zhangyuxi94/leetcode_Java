@@ -6,11 +6,9 @@ public class MakingAnagrams {
 	 public static int numberNeeded(String first, String second) {
 		 char[] chArr1=first.toCharArray();
 		 char[] chArr2=second.toCharArray();
-//		 chArr1
 		 Arrays.sort(chArr1);
 		 Arrays.sort(chArr2);
-		
-		 int loopLen=Math.min(chArr1.length, chArr2.length);
+
 		 int i=0,j=0,dele=0;
 		 while((i<chArr1.length)&&(j<chArr2.length)){
 			 if(chArr1[i]>chArr2[j]){
