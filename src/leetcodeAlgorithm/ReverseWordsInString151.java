@@ -5,6 +5,7 @@ public class ReverseWordsInString151 {
 		str=str.replaceAll("\\s+", " ");         //or use " +"," "
 		char[] strArr=str.toCharArray();
 		reverseChar(strArr,0,strArr.length-1);
+		System.out.println(strArr);
 		
 		int i=0;
 		int j=0;

@@ -1,7 +1,7 @@
 package leetcodeAlgorithm;
 
 public class ReverseVowelsOfString345 {
-	public static char[] ReverseVowels(String str){
+	public static String ReverseVowels(String str){
 		String vowels="aeiouAEIOU";
 		char[] charArr=str.toCharArray();
 		int a=0;
@@ -22,7 +22,8 @@ public class ReverseVowelsOfString345 {
 			a++;
 		
 		}
-		return charArr;
+		String result=new String(charArr);
+		return result;
 	}
 	public static void main(String[] args) {
 		System.out.println(ReverseVowels("Healluo"));

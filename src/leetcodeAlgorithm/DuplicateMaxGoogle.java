@@ -2,6 +2,8 @@ package leetcodeAlgorithm;
 
 public class DuplicateMaxGoogle {
 	public static int DuplicateMax(int inputN){
+		long a=Long.MIN_VALUE;
+		System.out.println(a);
 		if(inputN==0){
 			return 0;
 		}
