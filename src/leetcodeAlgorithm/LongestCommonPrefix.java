@@ -2,8 +2,8 @@ package leetcodeAlgorithm;
 
 public class LongestCommonPrefix {
 	public static String findLongest(String[] strs){
-		if(strs==null&&strs.length==0){
-			return " ";
+		if(strs==null||strs.length==0){
+			return "";
 		}
 		String pref=strs[0];
 		for(int i=1;i<strs.length;i++){
@@ -12,10 +12,11 @@ public class LongestCommonPrefix {
 			}
 		}
 		return pref;
-		
 	}
 	public static void main(String[] args) {
 		String[] test={"hellaoo","hello","helaaaa"};
-		System.out.println(findLongest(test));
+		String[] test1={};
+//		System.out.println(test1.length);
+		System.out.println(findLongest(test1));
 	}
 }

@@ -41,7 +41,7 @@ public class StringToInt {
 	}
 	public static void main(String[] args) {
 		StringToInt test=new StringToInt();
-		System.out.println(test.myAtoi(" 2341"));
+		System.out.println(test.myAtoi("  -2341"));
 	}
 }
 
